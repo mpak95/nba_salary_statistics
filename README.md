@@ -13,3 +13,11 @@ This repository will demonstrate the ability to automatically pull in NBA Team S
 
 The workflow management will be handled by Apache Airflow, and the data will be stored using a PostgreSQL database. Both applications will be stored in its own Docker Container.
 
+##Goals
+1. Create all functions to pull in NBA data and manage them in dataframes.
+2. Create all functions to load dataframes into PostgreSQL database.
+3. Setup Docker Containers for Apache Airflow and PostgreSQL database.
+4. Create DAG to run all ETL processes to extract NBA data, modify them to suit my needs, and load them into PostgreSQL database.
+
+##Roadmap
+The initial goal is to simply learn the main functionalities of py_ball, Apache Airflow, PostgreSQL, and Docker.
